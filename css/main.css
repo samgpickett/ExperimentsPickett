@@ -72,12 +72,10 @@ ul {
     font-size: 10pt;
 }
 
-/*
-a {
+.links {
     color: #d32531;
     text-decoration: none;
 }
-*/
 
 a:hover {
     text-decoration: underline;
@@ -2075,7 +2073,7 @@ reveal {
 }
 
 .makeitfun {
-    font-family: 'Lacquer';
+    font-family: 'Major Mono Display', monospace;
     position: fixed;
     font-size: 80pt;
     color: white;
