@@ -1,0 +1,2486 @@
+/* matthew raupp - interaction 2 - project 1 */
+
+/* ----- global styles -----  */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*uncommentting this rule forces all divs to temp have a border*/
+/*div {border: red solid thin;}*/
+
+#wrapper {
+    width: 350px;
+    margin: auto;
+}
+
+img {
+    margin-left: 25px;
+    ;
+}
+
+/* ----- project index page styles ----- */
+/*index*/
+h1 {
+
+    font-family: vollkorn, serif;
+
+    font-weight: 700;
+
+    font-style: italic;
+
+    font-size: 8vw;
+}
+
+h2 {
+
+
+    font-family: vollkorn, serif;
+
+    font-weight: 100;
+
+    font-size: 12pt;
+}
+
+h3 {
+
+    font-family: vollkorn, serif;
+
+    font-weight: 700;
+
+    font-style: italic;
+    font-size: 19pt;
+}
+
+p {
+
+    font-family: vollkorn, serif;
+
+    font-weight: 100;
+
+    font-size: 8pt;
+}
+
+ul {
+
+    font-family: vollkorn, serif;
+
+    font-weight: 200;
+
+    font-size: 10pt;
+}
+
+/*
+a {
+    color: #d32531;
+    text-decoration: none;
+}
+*/
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ----- type legibility Pre ----- */
+#template1 {
+    background-color: pink;
+    position: fixed;
+}
+
+.type1title {
+
+    font-family: abril-fatface, serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1.2pt;
+    font-size: 36pt;
+    margin-top: 190px;
+    padding-left: 32px;
+    position: absolute;
+    z-index: 1;
+    color: black;
+}
+
+
+
+.type1subhead {
+    font-family: vollkorn, serif;
+    font-size: 14pt;
+    margin-top: 366px;
+    margin-left: 84px;
+    margin-right: 48px;
+    background-color: yellow;
+    position: fixed;
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    z-index: 100;
+    width: 250px;
+
+}
+
+/* ----- type legibility ----- */
+
+
+/* ----- type ascii ----- */
+.type2callout {
+    font-family: acumin pro condensed;
+    font-weight: 700;
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 40pt;
+    color: #262223;
+
+}
+
+.ascii {
+    font-family: acumin-pro;
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 8px;
+    font-size: 50pt;
+    color: #BFBFBF;
+    z-index: -1;
+}
+
+.ascii:hover {
+    margin-left: 48px;
+    transition: 3s;
+}
+
+#template2 {
+    background-color: #F2F2F2;
+    width: 350px;
+    height: 350px;
+    border: 1px solid grey;
+    position: absolute;
+    /* vertical center */
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+.type2title,
+.type2callout,
+li {
+    color: #262223;
+}
+
+/* ----- type webfont ----- */
+.quotep3 {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10pt;
+    font-family: vollkorn, serif;
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+
+
+
+.namep3 {
+    margin-left: 38pt;
+    font-family: vollkorn, serif;
+    margin-top: 5px;
+}
+
+
+
+
+.bodyp3 {
+    opacity: 45%;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5pt;
+    font-size: 11pt
+}
+
+#template3 {
+    background-color: #D92D07;
+    position: fixed;
+    z-index: -1;
+    overflow: hidden;
+
+}
+
+.type3title {
+    font-family: abril-fatface, serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1.2pt;
+    font-size: 46pt;
+    color: #F2B749;
+    line-height: 55px;
+
+    position: absolute;
+    margin-left: 5px;
+}
+
+.type3title:hover {
+    transform: skewX(-2deg);
+    transition: 5s;
+}
+
+.type3subhead {
+    font-family: vollkorn, serif;
+    font-size: 16pt;
+    padding-left: 480px;
+    background-color: yellow;
+
+}
+
+type3p {
+    font-family: vollkorn, serif;
+    font-size: 12pt;
+}
+
+.type3callout {
+    font-family: abril-fatface, serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+/* ----- image transparency ----- */
+#template4 {
+    background-color: #A0D9D9;
+    position: fixed;
+    z-index: -1;
+    position: absolute;
+    overflow: hidden;
+}
+
+.transparentimage {
+    opacity: .5;
+    z-index: 2;
+    position: fixed;
+    margin-top: -46px;
+    margin-left: 70px;
+    
+}
+
+.titletransparent {
+    color: #F25041;
+    font-size: 40pt;
+    position: fixed;
+    opacity: .7;
+    font-family: gin;
+    margin-top: 40px;
+    z-index: 2;
+    margin-left: 25px;
+    line-height: 68px;
+}
+
+.subheadtransparent {
+    position: fixed;
+    color: darkblue;
+    font-family: acumin pro condensed;
+    font-weight: 600;
+    margin-top: 240px;
+    font-size: 30pt;
+    margin-left: 25px;
+    opacity: .5;
+}
+
+.around {
+    font-size: 80pt;
+    margin-left: 20px;
+      position: fixed;
+}
+
+.around:hover {
+    font-style: italic;
+    transition: 1s;
+      position: fixed;
+}
+
+/* ----- image reveal ----- */
+#template5 {
+    background-color: #A65D03;
+    z-index: -1;
+    position: fixed;
+    font-family: hobeaux;
+    overflow: hidden;
+    
+}
+
+textPath {
+    font-family: hobeaux;
+    font-size: 20pt;
+    position: fixed;
+    letter-spacing: 6px;
+    z-index: 10;
+    color:white;
+<<<<<<< HEAD
+=======
+   
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
+}
+/*
+@keyframes reunite {
+    0% {
+        margin-top: -160px;
+    }
+    50% {
+        margin-top: -165px;
+    }
+}
+*/
+.cloud {
+    position: fixed;
+    z-index: 0;
+    opacity: 40%;
+    margin-left: -380px;
+}
+/*
+text {
+    font-family: hobeaux;
+    position: fixed;
+    margin-top: 200px;
+    font-size: 80pt;
+    z-index: 10;
+        color:green;
+}
+*/
+
+.textreveal {
+    color: #FFC7C9;
+    font-family: hobeaux;
+    position: fixed;
+    margin-top: -155px;
+    font-size: 70pt;
+     animation: reunite .5s infinite;
+    margin-left: 10px;
+      z-index: 10;
+    
+}
+
+.imgreveal {
+    margin-left: -310px;
+    margin-top: -20px;
+    position: fixed;
+    opacity: 0;
+      z-index: 8;
+     transition: .5s;
+    animation: reveal 20s infinite;
+    transform: rotate(40deg);
+}
+
+@keyframes reveal{
+    20% {
+         opacity: 1;
+    margin-top: 80px;
+
+        transform: rotate(-1deg);
+    }
+     80% {
+         opacity: 1;
+    margin-top: 80px;
+         transform: rotate(-20deg);
+
+    }
+   
+
+}
+
+path {
+    fill: transparent;
+}
+
+/* ----- image repetition ----- */
+
+#template6 {
+    color: aliceblue;
+}
+
+
+/* ----- color gradation ----- */
+#template7 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #73020C, #F2B749, #F27507, #FFDC18, #D92D07);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%
+    }
+
+    100% {
+        background-position: 100%
+    }
+}
+
+.goodtimes {
+    color: white;
+    font-family: hobeaux;
+    position: fixed;
+    font-size: 70pt;
+    z-index: 2;
+    align-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* ----- color animation  ----- */
+@keyframes example {
+    from {
+        background-color: maroon;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+#template8 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    background-color: #F27507;
+
+}
+
+subheadanimation {
+    font-family: amador;
+    font-size: 60pt;
+    z-index: 2;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 15px;
+    color: #F27507;
+}
+
+
+@keyframes example {
+    from {
+        background-color: #73020C;
+    }
+
+    to {
+        background-color: #F27507;
+    }
+}
+
+
+@keyframes example {
+    from {
+        background-color: #73020C;
+    }
+
+    to {
+        background-color: #F27507;
+    }
+}
+
+/* ----- color rgba ----- */
+#template9 {
+    position: absolute;
+    overflow: hidden;
+    background-color: #262526;
+    background-image:
+        -moz-linear-gradient(45deg, #000 25%, transparent 25%),
+        -moz-linear-gradient(-45deg, #000 25%, transparent 25%),
+        -moz-linear-gradient(45deg, transparent 75%, #000 75%),
+        -moz-linear-gradient(-45deg, transparent 75%, #000 75%);
+    background-image:
+        -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #000), color-stop(.25, transparent)),
+        -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #000), color-stop(.25, transparent)),
+        -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #F25CA2)),
+        -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #000));
+
+    -moz-background-size: 100px 100px;
+    background-size: 100px 100px;
+    -webkit-background-size: 100px 101px;
+    z-index: -20;
+}
+
+.goldhands {
+    margin-top: 0px;
+    margin-left: -180px;
+    z-index: 1;
+    position: fixed;
+}
+
+.subheadrgba,
+.subsubheadrgba {
+    font-family: amador;
+    font-size: 50pt;
+    margin-left: 25px;
+}
+
+<<<<<<< HEAD
+.subheadrgba {
+=======
+subheadrgba {
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
+    color: white;
+    margin-top: 30px;
+    margin-left: 32px;
+    z-index: 0;
+    position: fixed;
+}
+
+.subsubheadrgba {
+    position: absolute;
+    margin-top: 220px;
+    font-size: 60pt;
+    color: white;
+    z-index: 2;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* ----- space positioning ----- */
+#template10 {
+    position: absolute;
+    background: rgba(200, 10, 0, 1);
+}
+
+.heart-shape {
+    color: white;
+    margin-top: 160px;
+    margin-left: 170px;
+    position: absolute;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 12pt;
+    letter-spacing: -20px;
+    animation-name: heartshape;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heartshape {
+    from {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(1.30)
+    }
+}
+
+/* ----- space z-index ----- */
+
+#template11 {
+    position: fixed;
+    background-color: #495D70;
+    overflow: hidden;
+}
+
+
+
+.missyou {
+    color: #F25041;
+    font-size: 58pt;
+    position: fixed;
+    font-family: gin;
+    margin-top: 120px;
+    z-index: 2;
+    margin-left: 17px;
+    line-height: 68px;
+    
+}
+
+.missyousubhead {
+    color: #F25041;
+    font-size: 15pt;
+    position: fixed;
+    font-family: gin;
+    margin-top: -17px;
+    z-index: 3;
+    margin-left: 183px;
+    line-height: 220px;
+    letter-spacing: 3px;
+}
+.oldfriend {
+    color: #F25041;
+    font-size: 12pt;
+    position: fixed;
+    font-family: gin;
+    margin-top: 217px;
+    z-index: 3;
+    margin-left: 190px;
+    letter-spacing: 3.3px;
+}
+
+.you {
+    color: #E0FFEB;
+}
+.vintagebicycle {
+    opacity: .5;
+    z-index: 0;
+}
+
+.vintagebicycle2 {
+    z-index: 0;
+    margin-top: -150px;
+    margin-left: 70px;
+    
+}
+
+/* ----- space zoom ----- */
+
+#template12 {
+    position: absolute;
+    font-family: gin;
+    font-size: 22pt;
+    background-color: #F23322;
+    text-align: center;
+    z-index: 0;
+    
+}
+
+.text {
+    position: fixed;
+    font-family: gin;
+    font-size: 20pt;
+    color: #F2AF5C;
+    text-align: center;
+    margin-left: 30px;
+    z-index: 6;
+    margin-top: 60px;
+    letter-spacing: 2px;
+    transform: rotate(-10deg);
+}
+
+.img-magnifier-container {
+    margin-top: 80px;
+    position: fixed;
+    opacity: .8;
+    
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 80px;
+    height: 80px;
+}
+
+.dot {
+    position: fixed;
+    margin-top: 245px;
+    margin-left: 143px;
+     z-index: 6;
+    color: white;
+    font-size: 14pt;
+    font-weight: 600;
+    transform: rotate(10deg);
+    letter-spacing: 2px;
+
+}
+
+/* ----- youtube rhythm ----- */
+.youtuberhythm {
+    position: fixed;
+    margin-top: 140px;
+    margin-left: 35px;
+    opacity: .3;
+    animation-name: youtuberhythm;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    line-height: 55px;
+
+}
+
+@keyframes youtuberhythm {
+    from {
+        z-index: 4;
+    }
+
+    to {
+        z-index: 4;
+        opacity: 1;
+        width: 350px;
+        height: 220px;
+        margin-left: 0px;
+
+    }
+}
+
+#template13 {
+    position: fixed;
+    background-color: #0F0F0F;
+}
+
+.creepy {
+    text-align: center;
+    position: fixed;
+    margin-left: 35px;
+    width: 280px;
+    margin-top: 30px;
+    color: ghostwhite;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20pt;
+    letter-spacing: 5px;
+    z-index: 2;
+
+
+}
+
+.wife {
+    font-size: 12pt;
+
+}
+
+.there {
+    position: fixed;
+    margin-left: -110px;
+    margin-top: -120px;
+    font-size: 40pt;
+    opacity: 0%;
+    animation: sink 10s linear infinite;
+}
+@keyframes sink {
+    40% {
+        margin-top: -120px;
+        opacity: 100%;
+        font-size: 60pt;
+         margin-left: -120px;
+    }
+    90% {
+         margin-top: 20px;
+    margin-left: -105px;
+    }
+}
+
+/* ----- map personality ----- */
+#template14 {
+    position: fixed;
+}
+
+.pay {
+    font-family: gin;
+    font-size: 26pt;
+    z-index: 2;
+    position: fixed;
+    font-size: 36pt;
+    text-align: center;
+    margin-top: 180px;
+    color: #DD4B3E;
+}
+
+.pay:hover {
+    margin-top: 230px;
+    transition: 10s;
+}
+
+/* ----- gif meme ----- */
+#template15 {
+    position: fixed;
+    background-color: black;
+    overflow: hidden;
+}
+
+.come {
+    margin-top: 40px;
+    margin-left: -40px;
+    opacity: .6;
+    z-index: 1;
+}
+
+.fullnight {
+    color: red;
+    font-family: omnes-pro, sans-serif;
+    font-size: 40pt;
+    position: fixed;
+    width: 250px;
+    margin-left: 180px;
+    margin-top: 40px;
+    animation-name: fullnight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    line-height: 55px;
+    z-index: 4;
+}
+
+@keyframes fullnight {
+    from {
+        letter-spacing: 0px;
+        opacity: 1;
+    }
+
+    to {
+        letter-spacing: 6px;
+        opacity: .2;
+    }
+
+}
+
+/* ----- gif loop ----- */
+#template16 {
+    position: fixed;
+<<<<<<< HEAD
+    background-color: #C41606;
+=======
+    background-color: #590202;
+    overflow: hidden;
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
+}
+
+.walking {
+    margin-top: 30px;
+    position: fixed;
+    animation-iteration-count: infinite;
+    z-index: 5;
+    
+}
+
+.goodbye {
+    z-index: 2;
+    position: fixed;
+    margin-top: 250px;
+    font-size: 59pt;
+    font-family: amador;
+    text-align: center;
+    margin-left: 22px;
+<<<<<<< HEAD
+    animation: bye 9.8s infinite;
+    animation-delay: 9.8s;
+    color: #F08703;
+}
+@keyframes bye {
+    80% {
+        margin-top: 50px;
+
+    }
+    100% {
+        margin-top: 80px;
+        font-size: 0pt;
+        margin-left: 180px;
+    }
+
+=======
+    animation: bye 9.7s infinite;
+    text-align: center;
+    
+}
+.good {
+     color:#BF2011;
+    text-decoration: none;
+    
+}
+@keyframes bye {
+    0% {
+        font-size: 59pt;
+        margin-left: 22px;
+        opacity: 100%
+    }
+    70% {
+        margin-top: 90px;
+
+        
+    }
+    100% {
+        margin-top: 70px;
+        font-size: 30pt;
+        margin-left: 122px;
+
+    }
+
+}
+.names {
+    color: wheat;
+    font-family: vollkorn, serif;
+    position: fixed;
+    text-align: center;
+    margin-left: 130px;
+    line-height: 50px;
+    margin-top: 400px;
+    animation: name 9.6s infinite;
+}
+
+@keyframes name {
+    96% {
+        margin-top: 100px;
+    }
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
+}
+
+/* ----- nested iframes ----- */
+#template17 {
+    position: fixed;
+    background-color: black;
+}
+
+.depot {
+    margin-top: 100px;
+}
+
+.prepare {
+    position: fixed;
+    color: aliceblue;
+    font-family: helvetica;
+    font-weight: 100;
+    letter-spacing: 13px;
+    font-size: 12pt;
+    transition: 1s;
+    margin-left: 28px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.prepare:hover {
+    letter-spacing: 1px;
+
+
+}
+
+/* ----- gif recursive ----- */
+#template18 {
+    position: fixed;
+    background-color: black;
+    overflow: scroll;
+}
+
+.recursive {
+    font-family: helvetica;
+    position: fixed;
+    color: white;
+    font-weight: 100;
+    width: 300px;
+    margin-left: 145px;
+    font-size: 16pt;
+    margin-top: 40pt;
+   animation: shrink .5s infinite;
+}
+.r {
+     animation-duration: .1s;
+    animation-iteration-count: infinite;
+    animation-name: recursive;
+}
+
+@keyframes shrink {
+    from {
+        letter-spacing: 0px;
+    }
+
+    to {
+        letter-spacing: 4px;
+    }
+}
+
+
+@keyframes recursive {
+    from {
+        font-size: 123pt;
+        font-weight: 100;
+    }
+
+    to {
+        font-size: 16pt;
+        font-weight: 600;
+    }
+}
+
+
+/* ----- videotype ----- */
+#template19 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+}
+
+.text {
+    position: fixed;
+    z-index: 4;
+    color: lightblue;
+    margin-top: 20px;
+    font-size: 26pt;
+    font-family: acumin pro condensed;
+    font-weight: 600;
+}
+
+/* ----- videotype ----- */
+#template20 {
+    position: fixed;
+    background-color: aliceblue;
+    overflow: scroll;
+
+}
+
+.griditem1,
+.grid-item2,
+.grid-item3 {
+    position: absolute;
+    display: inline-block;
+    margin-top: 120px;
+    scroll-behavior: smooth;
+
+}
+
+.grid-item2 {
+    margin-left: 360px;
+}
+
+.grid-item3 {
+    margin-left: 720px;
+}
+
+.here {
+    position: fixed;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 100;
+    margin-top: 200px;
+    margin-left: 24px;
+    font-size: 16pt;
+}
+
+.linkback,
+.linkforward,
+.linkforward1 {
+    position: absolute;
+    margin-top: 200px;
+    color: aliceblue;
+    z-index: 4;
+    font-size: 30pt;
+    text-decoration: none;
+    text-underline-position: left;
+}
+
+.linkback {
+    margin-left: 370px;
+    letter-spacing: 340px;
+}
+
+.linkforward {
+    margin-left: 320px;
+
+
+}
+
+.linkforward1 {
+    margin-left: 680px;
+}
+
+/* ----- project index page styles ----- */
+
+#index {
+    background-color: ghostwhite;
+}
+
+#index #wrapper {
+    width: 50%;
+    height: 100vh;
+    padding: 50px;
+}
+
+#index #title,
+ul {
+    padding-bottom: 30px;
+}
+
+#index ul li {
+    list-style: decimal-leading-zero
+}
+
+/* ----- video direction ----- */
+#template21 {
+    position: fixed;
+    background-color: black;
+    overflow: scroll;
+}
+
+.direct {
+    position: fixed;
+}
+
+.direction {
+    position: fixed;
+    margin-top: 290px;
+    color: red;
+    width: 300px;
+    margin-left: 25px;
+    font-size: 14pt;
+    font-style: italic;
+    font-family: acumin-pro;
+    z-index: 4;
+
+}
+
+/* ----- music generation ----- */
+#template22 {
+    position: fixed;
+    background-color: #F4B400;
+    overflow: scroll;
+
+}
+
+.musicgen {
+    margin-top: 110px;
+}
+
+.the {
+    font-size: 12pt;
+    width: 600px;
+    position: absolute;
+    font-family: acumin-pro;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-left: 15px;
+    color: white;
+
+}
+
+/* ----- sound voice ----- */
+#template23 {
+    position: fixed;
+    background-color: black;
+
+    width: 350px;
+
+}
+
+.please {
+    font-family: omnes-pro, sans-serif;
+    font-weight: 100;
+    animation-name: please;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+    color: white;
+    margin-left: 20px;
+}
+
+.please2 {
+    font-family: omnes-pro, sans-serif;
+    font-size: 6pt;
+    font-weight: 100;
+    position: fixed;
+    color: red;
+    animation-name: please2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+.pleases {
+    position: fixed;
+    margin-top: 180px;
+    margin-left: 25px;
+}
+
+@keyframes please {
+    from {
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+    to {
+        letter-spacing: 14px;
+        text-align: center;
+    }
+}
+
+@keyframes please2 {
+    from {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(2.50)
+    }
+}
+
+/* ----- sound loops ----- */
+#template24 {
+    position: fixed;
+    background-color: black ;
+    overflow: hidden;
+    align-content: center;
+}
+
+.loops,
+.loops2 {
+    margin-top: 0px;
+    width: 2320px;
+    position: absolute;
+    font-family: acumin pro;
+    animation-name: loops;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: white;
+    font-size: 18pt;
+    position: fixed;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.loops2 {
+    margin-top: 200px;
+}
+
+.loop {
+    margin-left: 25px;
+
+}
+
+@keyframes loops {
+    from {
+        background-color: red;
+        margin-left: -12px;
+    }
+
+    to {
+        background-color: red;
+        margin-left: -1112px;
+    }
+}
+
+/* ----- fade out ----- */
+#template25 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: black;
+}
+
+.light {
+    width: 100px;
+    height: 1px;
+    border-radius: 100px;
+    background-color: #D18000;
+    box-shadow: 0 0 115px 122px #D18000;
+    margin-top: 241px;
+    margin-left: 120px;
+    position: fixed;
+    opacity: 0;
+    position: fixed;
+    animation: lightout 10s infinite;
+    animation-delay: 1s;
+}
+
+.lightfade {
+    position: fixed;
+    z-index: 2;
+    margin-top: 60px;
+    margin-left: 70px;
+
+}
+
+.fadeout {
+    color: #D18000;
+    font-family: gin;
+    font-size: 12pt;
+    margin-left: 205px;
+    margin-top: 220px;
+    letter-spacing: 4px;
+    position: fixed;
+    opacity: .4;
+}
+
+@keyframes lightout {
+    30% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 60%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+
+/* ----- fade to ----- */
+#template26 {
+    position: fixed;
+    overflow: scroll;
+    align-content: center;
+    background-color: black;
+}
+
+#color {
+    background-color: blue;
+    position: fixed;
+    opacity: .6;
+    z-index: 1;
+    animation: fadetocolor 7s infinite;
+}
+
+@keyframes fadetocolor {
+    0% {
+        background-color: red;
+    }
+
+    10% {
+        background-color: blue;
+    }
+
+    20% {
+        background-color: red;
+    }
+
+    30% {
+        background-color: blue;
+    }
+
+    40% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    60% {
+        background-color: red;
+    }
+
+    70% {
+        background-color: blue;
+    }
+
+    90% {
+        background-color: blue:
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.original {
+    color: white;
+    position: fixed;
+    margin-top: 290px;
+    margin-left: 100px;
+    font-family: amador;
+    font-size: 15pt;
+    z-index: 2;
+}
+
+.edison {
+    position: fixed;
+    z-index: 0;
+    margin-left: 0px;
+}
+
+/* ----- fade in ----- */
+#template27 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background: #07038C;
+    overflow: hidden;
+}
+
+.lightin {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #F20732;
+    box-shadow: 0 0 295px 270px #F20732;
+    margin-top: 340px;
+    margin-left: 195px;
+    position: fixed;
+    animation: lightin 10s infinite;
+    opacity: .6;
+    z-index: 2
+}
+
+@keyframes lightin {
+    0% {
+        opacity: 0%;
+    }
+
+    26% {
+        opacity: 60%;
+    }
+        95% {
+        opacity: 60%;
+    }
+        100% {
+        opacity: 0%;
+    }
+}
+
+.bulbin {
+    position: fixed;
+    z-index: 2;
+    opacity: .8;
+}
+
+.softlight {
+    color: #F20732;
+    font-family: acumin pro condensed;
+    font-weight: 600;
+    font-size: 76pt;
+    line-height: 60px;
+    position: fixed;
+    margin-top: 200px;
+    z-index: 1;
+    margin-left: 5pt;
+}
+
+/* ----- delay ----- */
+#template28 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: yellow;
+}
+
+.cord {
+    background-color: #022859;
+    width: 2px;
+    height: 200px;
+    position: fixed;
+    margin-left: 90px;
+    animation: cord 10s infinite;
+
+}
+
+.delay {
+    font-family: vollkorn, serif;
+    position: fixed;
+    margin-left: 140px;
+    line-height: 250px;
+    animation:delay 10s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes delay {
+    0% {
+        margin-top: 0px;
+    }
+
+    30% {
+        margin-top: -260px;
+    }
+
+    40% {
+        margin-top: -260px;
+    }
+
+    60% {
+        margin-top: -500px;
+    }
+
+    70% {
+        margin-top: -500px;
+    }
+
+    100% {
+        margin-top: -750px;
+    }
+}
+
+.lightdelay {
+    margin-left: 76px;
+    margin-top: 200px;
+    animation: blub 10s infinite;
+    position: fixed;
+
+}
+
+@keyframes blub {
+    0% {
+        margin-top: -80px;
+    }
+
+    30% {
+        margin-top: 200px;
+    }
+    90% {
+        margin-top: 200px;
+    }
+    100% {
+        margin-top: -80px;
+    }
+}
+
+@keyframes cord {
+    0% {
+        margin-top: -280px;
+    }
+
+    10% {
+        background-color: #022859;
+    }
+
+    20% {
+        background-color: #D90404;
+    }
+
+    30% {
+        background-color: #022859;
+         margin-top: 0px;
+    }
+
+    40% {
+        background-color: #D90404;
+    }
+
+    50% {
+        background-color: #022859;
+    }
+
+    60% {
+        background-color: #D90404;
+    }
+
+    70% {
+        background-color: #022859;
+    }
+
+    80% {
+        background-color: #D90404;
+    }
+ 90% {
+         margin-top: 0px;
+    }
+
+    100% {
+        margin-top: -280px;
+    }
+}
+
+
+/* ----- scale ----- */
+#template29 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+}
+
+.buzzlight {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #F20732;
+    box-shadow: 0 0 45px 60px #F20732;
+    position: fixed;
+    z-index: 4;
+    margin-top: 100px;
+    margin-left: 170px;
+    animation: buzz 1s infinite;
+
+}
+
+.scale {
+    position: fixed;
+    margin-left: 0;
+    z-index: 1;
+}
+
+@keyframes buzz {
+    0% {
+        transform: scale(1);
+        opacity: 66%;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 80%;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 70%;
+    }
+}
+
+.mercury,
+.mercury2 {
+    position: fixed;
+    z-index: 3;
+    font-family: gin;
+    margin-top: 163px;
+    margin-left: 15px;
+    font-size: 24pt;
+    line-height: 36px;
+    color: white;
+    animation: buzz 1s infinite;
+}
+
+.mercury2 {
+    margin-left: 215px;
+}
+
+.blow {
+    font-size: 38pt;
+
+}
+
+/* ----- string ----- */
+#template30 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background: black;
+}
+
+.stringimg {
+    position: fixed;
+    margin-top: -70px;
+}
+
+#hide {
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#show {
+    margin-left: -95px;
+}
+
+.stringoff {
+    margin-left: 10px;
+}
+
+
+
+/* ----- subtle ----- */
+#template31 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background-color: #F20732;
+}
+
+#charlie {
+    position: fixed;
+    margin-top: 10px;
+    margin-left: -90px;
+    z-index: 2;
+/*    animation: disappear 20s linear infinite;*/
+    transform: rotate(90deg);
+}
+
+.thought {
+    position: fixed;
+    margin-left: 50px;
+    margin-top: -30px;
+    z-index: 1;
+     animation: rotate 16s linear infinite;
+}
+.charlielight, .internet {
+    margin-top: 100px;
+    margin-left: 65px;
+    font-family: acumin pro condensed;
+    font-weight: 700;
+    font-size: 12pt;
+    color: white;
+     z-index: 0;
+    position: fixed;
+}
+@keyframes disappear {
+    30% {
+        margin-top: 50px;
+    }
+    40% {
+        margin-top: 400px;
+    }
+    95% {
+        margin-top: 400px;
+    }
+
+}
+.internet {
+    position: fixed;
+    margin-left: 200px;
+    margin-top: 260px;
+    text-decoration: underline;
+}
+
+/* ----- intense ----- */
+#template32 {
+    background-color: black;
+    display: inline-block;
+    width: 1920px;
+    height: 600px;
+    color: white;
+    position: fixed;
+}
+
+#follower {
+    position: absolute;
+    float: right;
+}
+
+.lightdrag {
+    width: 1px;
+    height: 1px;
+    border-radius: 50px;
+    background-color: #F20732;
+    box-shadow: 0 0 40px 30px #F20732;
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+
+reveal {
+    position: fixed;
+    color: black;
+    font-size: 40pt;
+    font-family: helvetica;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+
+/* ----- chaotic ----- */
+#template33 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: lavender;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.decorate {
+    z-index: 2;
+    position: fixed;
+    margin-top: 298px;
+    margin-left: 20px;
+    font-size: 20pt;
+    font-family: helvetica;
+    font-weight: 600;
+
+
+}
+
+.tangled {
+    position: fixed;
+    margin-top: -100px;
+    z-index: 0;
+    margin-left: -300px;
+    animation: rotate 16s linear infinite;
+}
+
+.chand {
+    position: fixed;
+    margin-top: -280px;
+    animation: rotate 16s linear infinite;
+
+}
+
+.plug {
+    position: fixed;
+    margin-top: 150px;
+    margin-left: -160px;
+    z-index: 1;
+    animation: rotate 6s linear infinite;
+}
+
+/* ----- opacity ----- */
+#template34 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: #190D26;
+    font-family: acumin pro;
+    font-size: 32pt;
+}
+
+.try,
+.cozy {
+    font-weight: 100;
+    margin-left: 40px;
+    position: fixed;
+    margin-top: 270px;
+    letter-spacing: 14px;
+    color: white;
+}
+
+.cozy {
+    margin-top: 25px;
+    letter-spacing: 0px;
+}
+
+.amenities {
+    position: fixed;
+    margin-left: 15px;
+    margin-top: 100px;
+    opacity: 60%;
+}
+
+.detail {
+    position: fixed;
+    margin-left: 123px;
+    margin-top: 100px;
+    opacity: 60%;
+}
+
+.main {
+    position: fixed;
+    margin-left: 230px;
+    margin-top: 100px;
+    opacity: 60%;
+
+}
+
+.opacity {
+    opacity: 100%;
+}
+
+.hovertext {
+    font-size: 12pt;
+    color: yellow;
+    margin-top: 180px;
+    position: fixed;
+    margin-left: 30px;
+    word-spacing: 48px;
+    opacity: 0%;
+    transition: .5s;
+}
+
+.hovertext:hover {
+    opacity: 100%;
+}
+
+
+
+/* ----- minimal ----- */
+#template35 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: #190D26;
+}
+
+
+
+/* ----- slide ----- */
+#template37 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: #F2E307;
+}
+
+
+/* ----- getandpost ----- */
+#template38 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: #568C82;
+}
+
+/* ----- changecss ----- */
+#template39 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+    background-color: #F2E307;
+}
+
+/* ----- mousemovement ----- */
+#template40 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background-color: #F2F2F2;
+}
+
+
+/* ----- color ----- */
+#template41 {
+    position: fixed;
+    background-color: ;
+    overflow: hidden;
+    align-content: center;
+}
+
+/* ----- click ----- */
+#template42 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background-color: lavender;
+}
+
+.closer {
+    font-family: acumin pro condensed;
+    font-weight: 600;
+    position: fixed;
+    z-index: 2;
+    font-size: 22pt;
+    color: white;
+    margin-top: 20px;
+    margin-left: 16px;
+
+}
+
+.closer:hover {
+    color: red;
+}
+
+.look {
+    font-family: acumin pro condensed;
+    font-weight: 600;
+    position: fixed;
+    z-index: 2;
+    font-size: 76pt;
+    margin-left: 155px;
+    margin-top: 12px;
+
+}
+
+.lookmoved {
+    transition: 1s;
+    margin-top: 180px;
+    font-style: italic;
+}
+
+.eye {
+    position: fixed;
+    margin-left: -110px;
+}
+
+.preview {
+    opacity: 0;
+    position: fixed;
+    margin-top: 53px;
+    margin-left: 190px;
+    transition: 2s;
+
+}
+
+.previewclick {
+    opacity: 0;
+    position: fixed;
+    margin-left: 1px;
+    transition: 2s;
+    margin-top: 0px;
+    height: 600px;
+
+}
+
+.view {
+    opacity: 100;
+}
+
+/*--- drawcanvas ---*/
+#template43 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background-color: #05C7F2;
+    z-index: 1;
+}
+
+.napkin {
+    position: fixed;
+    z-index: 2;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+#can {
+    margin-top: 330px;
+    margin-left: 160px;
+    z-index: 4;
+
+}
+
+.draw {
+    font-family: 'Bungee';
+    color: #262626;
+    font-size: 40pt;
+    position: fixed;
+    margin-top: 32px;
+    margin-left: 10px;
+    line-height: 43px;
+
+}
+
+.yes {
+    font-family: 'Bungee';
+    color: #F2785C;
+    position: fixed;
+    font-size: 200pt;
+    transform: rotate(-20deg);
+    margin-top: 100px;
+}
+
+/*--- draw svg ---*/
+#template44 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background-color: #025159;
+    z-index: 1;
+}
+
+.portaitjc {
+    position: fixed;
+    color: #03A696;
+    font-family: 'Odibee Sans';
+    font-size: 32pt;
+    margin-left: 50px;
+    margin-top: 280px;
+
+}
+
+/*--- forloop ---*/
+#template45 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background-color: #03A696;
+    z-index: 1;
+}
+
+.makeitfun {
+    font-family: 'Lacquer';
+    position: fixed;
+    font-size: 80pt;
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+/*--- generate random ---*/
+#template46 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background-color: #261010;
+    z-index: 1;
+    font-family: 'Lato';
+    font-size: 200pt;
+    font-weight: 100;
+    color: #86A69D;
+
+}
+
+.genrandom {
+    position: fixed;
+    font-family: 'Lato';
+    font-weight: 400;
+    letter-spacing: 6px;
+    font-size: 15pt;
+    margin-left: 60px;
+    margin-top: 100px;
+    opacity: 100%;
+    z-index: 3;
+    color: white;
+
+}
+
+.howmany {
+    position: fixed;
+    font-family: 'Lato';
+    margin-left: 220px;
+    opacity: 100%;
+    z-index: 3;
+    color: #025159;
+    background: transparent;
+    margin-top: 190px;
+    font-size: 50pt;
+    color: white;
+}
+
+.submitamount {
+    position: fixed;
+    font-family: 'Lato';
+    opacity: 100%;
+    z-index: 3;
+    background: transparent;
+    margin-top: 300px;
+    color: white;
+    border: #BF9D95;
+}
+
+.question {
+    position: fixed;
+    font-size: 32pt;
+    z-index: 4;
+    font-family: 'Lato';
+    opacity: 100%;
+
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> f357086801c37c77b8260bc63ccb6a79025805a9
+}
+
+/* -----  interaction wildcard 1  ----- */
+
+#template47 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background-color: #261615;
+    z-index: 1;
+    font-family: 'Lato';
+
+}
+
+.countdown {
+    font-family: 'Roboto';
+    position: fixed;
+    transition: .5s;
+    color: black;
+    font-weight: 600;
+    margin-top: 180px;
+    margin-left: 160px;
+    font-size: 50pt;
+
+}
+
+.countdown:hover {
+    opacity: 0%;
+}
+
+.time {
+    font-family: 'Roboto';
+    position: fixed;
+    margin-top: 100px;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    color: #D9D9D9;
+}
+
+#demo1 {
+    font-family: 'Roboto';
+    color: #D9D9D9;
+    position: fixed;
+    margin-top: 60px;
+    font-size: 60pt;
+    margin-left: 170px;
+    line-height: 75px;
+    font-weight: 900;
+    opacity: 0%;
+    transition: .5s;
+
+}
+
+#demo1:hover {
+    opacity: 100%;
+}
+
+
+
+/* -----  interaction wildcard 2  ----- */
+#template48 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    background-color: #0F26A6;
+    font-weight: 100;
+    font-family: 'Inconsolata';
+    color: #F2CE1B;
+
+}
+
+.upload {
+    font-family: 'Inconsolata';
+    font-size: 80pt;
+    margin-left: 10px;
+    z-index: 4;
+    position: fixed;
+}
+
+.input {
+    font-family: 'Inconsolata';
+    margin-left: 30px;
+    line-height: 30px;
+    z-index: 4;
+    position: fixed;
+    margin-top: 230px;
+}
+
+.uploadstar {
+    font-size: 500pt;
+    position: fixed;
+    margin-left: 160px;
+    margin-top: -100px;
+    color: #364FD9;
+    z-index: 1;
+}
+
+/* -----  interaction wildcard 3  ----- */
+
+#template49 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    z-index: 1;
+    font-family: 'Lato';
+    font-weight: 100;
+    background-color: #eee;
+    font-family: 'Roboto';
+    color: white;
+
+}
+
+.merch {
+    position: fixed;
+    position: fixed;
+    color: white;
+    font-size: 20pt;
+    font-family: 'helvetica';
+    font-weight: 600;
+    z-index: 4;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+.buynapkin {
+    position: fixed;
+    font-family: 'Raleway Dots', ;
+    margin-left: -10px;
+    margin-top: 80px;
+
+}
+
+.add1 {
+    position: fixed;
+    letter-spacing: 8px;
+    background: transparent;
+    color: black;
+    font-family: 'Raleway Dots';
+    margin-top: 260px;
+    margin-left: 200px;
+    border: #F0F6F4;
+}
+
+.add2 {
+    position: fixed;
+    letter-spacing: 8px;
+    background: transparent;
+    color: black;
+    font-family: 'Raleway Dots';
+    margin-top: 260px;
+    border: #F0F6F4;
+
+}
+
+.buysharpie {
+    position: fixed;
+    margin-left: 200px;
+    margin-top: 140px;
+}
+
+
+
+/* -----  Generate wildcard 3  ----- */
+#template50 {
+    position: fixed;
+    background-color: #027368;
+    overflow: scroll;
+    align-content: center;
+    background-color: ;
+    z-index: 1;
+    font-family: 'Lato';
+    font-weight: 100;
+    color: #86A69D;
+
+}
+
+.complete {
+    font-family: 'Krona One';
+    position: fixed;
+    margin-left: 30px;
+    width: 290px;
+    margin-top: 250px;
+}
+
+.location {
+    background: transparent;
+    color: white;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+#demo {
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 24pt;
+    width: 250px;
+    font-family: 'Krona One';
+}
+
+/* -----  animate easing  ----- */
+#template51 {
+    position: fixed;
+    background-color: ;
+    overflow: scroll;
+    align-content: center;
+    z-index: 0;
+    font-family: 'Lato';
+    font-weight: 100;
+    color: red;
+    font-family: 'Krona One';
+    padding: 30px;
+    
+}
+
+.animation {
+    position: fixed; 
+    margin-top:-300px;
+    z-index: 0;
+    
+}
+.patient {
+    z-index: 10;
+    position: fixed;
+    line-height: 220px;
+    font-size: 14pt;
+    margin-top: -70px;
+    margin-left: 40px;
+}
+
+/* -----  project template  ----- */
+#color,
+#template,
+#template1,
+#template2,
+#template3,
+#template4,
+#template5,
+#template6,
+#template7,
+#template8,
+#template9,
+#template10,
+#template11,
+#template12,
+#template13,
+#template14,
+#template15,
+#template16,
+#template17,
+#template18,
+#template19,
+#template20,
+#template21,
+#template22,
+#template23,
+#template24,
+#template25,
+#template26,
+#template27,
+#template28,
+#template29,
+#template30,
+#template31,
+#template32,
+#template33,
+#template34,
+#template35,
+#template36,
+#template37,
+#template38,
+#template39,
+#template40,
+#template41,
+#template42,
+#template43,
+#template44,
+#template45,
+#template46,
+#template47,
+#template48,
+#template49,
+#template50,
+#template51,
+#template52,
+#template53,
+#template54 {
+    width: 350px;
+    height: 350px;
+    border: 1px solid grey;
+
+    /* vertical center */
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* ----- project typelegibility page styles ----- */
+
+span {
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 5px;
+
+}
+button {
+    background-color: blue;
+    font-family: helvetica;
+    color: white;
+    margin-left: 60px;
+    margin-top: 240px;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    padding: 1px 10px 3px 10px;
+
+}
+
+/* -----  week 2 styles  ----- */
