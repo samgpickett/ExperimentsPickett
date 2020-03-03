@@ -454,7 +454,7 @@ path {
 }
 
 subheadanimation {
-    font-family: amador;
+    font-family: amador, sans-serif;
     font-size: 60pt;
     z-index: 2;
     position: absolute;
@@ -516,7 +516,7 @@ subheadanimation {
 
 .subheadrgba,
 .subsubheadrgba {
-    font-family: amador;
+   font-family: amador, sans-serif;
     font-size: 50pt;
     margin-left: 25px;
 }
@@ -846,7 +846,7 @@ subheadanimation {
     position: fixed;
     margin-top: 250px;
     font-size: 59pt;
-    font-family: amador;
+    font-family: amador, sans-serif;
     text-align: center;
     margin-left: 22px;
     animation: bye 9.8s infinite;
@@ -1367,7 +1367,7 @@ ul {
     position: fixed;
     margin-top: 290px;
     margin-left: 100px;
-    font-family: amador;
+    font-family: amador, sans-serif;
     font-size: 15pt;
     z-index: 2;
 }
