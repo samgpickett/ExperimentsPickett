@@ -902,8 +902,8 @@ subheadanimation {
 }
 
 @keyframes name {
-    96% {
-        margin-top: 100px;
+    100% {
+        margin-top: -100px;
     }
 
 }
