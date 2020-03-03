@@ -2075,10 +2075,14 @@ reveal {
 .makeitfun {
     font-family: 'Major Mono Display', monospace;
     position: fixed;
-    font-size: 80pt;
+    font-size: 60pt;
     color: white;
     margin-top: 40px;
     margin-left: 20px;
+}
+.fun {
+    font-size: 102pt;
+    
 }
 
 /*--- generate random ---*/
