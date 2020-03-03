@@ -522,7 +522,7 @@ subheadanimation {
 }
 
 
-subheadrgba {
+.subheadrgba {
     color: white;
     margin-top: 30px;
     margin-left: 32px;
@@ -849,7 +849,6 @@ subheadrgba {
     font-family: amador;
     text-align: center;
     margin-left: 22px;
-
     animation: bye 9.8s infinite;
     animation-delay: 9.8s;
     color: #F08703;
@@ -865,9 +864,6 @@ subheadrgba {
         margin-left: 180px;
     }
 
-=======
-    animation: bye 9.7s infinite;
-    text-align: center;
     
 }
 .good {
