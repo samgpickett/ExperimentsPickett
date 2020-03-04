@@ -599,7 +599,7 @@ subheadanimation {
     z-index: 3;
     margin-left: 183px;
     line-height: 220px;
-    letter-spacing: 3px;
+    letter-spacing: 3.8px;
 }
 .oldfriend {
     color: #F25041;
@@ -608,8 +608,8 @@ subheadanimation {
     font-family: gin;
     margin-top: 217px;
     z-index: 3;
-    margin-left: 190px;
-    letter-spacing: 3.3px;
+    margin-left: 183px;
+    letter-spacing: 4px;
 }
 
 .you {
@@ -639,7 +639,7 @@ subheadanimation {
     
 }
 
-.text {
+.text2 {
     position: fixed;
     font-family: gin;
     font-size: 20pt;
@@ -667,6 +667,7 @@ subheadanimation {
     /*Set the size of the magnifier glass:*/
     width: 80px;
     height: 80px;
+    font-family: gin;
 }
 
 .dot {
@@ -679,7 +680,7 @@ subheadanimation {
     font-weight: 600;
     transform: rotate(10deg);
     letter-spacing: 2px;
-
+     font-family: gin;
 }
 
 /* ----- youtube rhythm ----- */
@@ -1196,7 +1197,7 @@ ul {
 /* ----- sound loops ----- */
 #template24 {
     position: fixed;
-    background-color: black ;
+    background-color: rgb(242,242,242) ;
     overflow: hidden;
     align-content: center;
 }
@@ -1215,6 +1216,7 @@ ul {
     position: fixed;
     height: 40px;
     padding-top: 10px;
+    background-color: red;
 }
 
 .loops2 {
@@ -1223,17 +1225,17 @@ ul {
 
 .loop {
     margin-left: 25px;
-
+    
 }
 
 @keyframes loops {
     from {
-        background-color: red;
+       
         margin-left: -12px;
     }
 
     to {
-        background-color: red;
+       
         margin-left: -1112px;
     }
 }
@@ -2326,6 +2328,7 @@ reveal {
 
 .complete {
     font-family: 'Krona One';
+    font-size: 11pt;
     position: fixed;
     margin-left: 30px;
     width: 290px;
@@ -2333,11 +2336,17 @@ reveal {
 }
 
 .location {
+    color: #86A69D;
     background: transparent;
-    color: white;
     margin-top: 30px;
-    margin-left: 45px;
+    margin-left: 30px;
+    font-family: 'Krona One';
+    border: transparent;
+  border-left: 1px solid white;
+border-right: 1px solid white;
+
 }
+
 
 #demo {
     margin-top: 100px;
@@ -2345,6 +2354,7 @@ reveal {
     font-size: 24pt;
     width: 250px;
     font-family: 'Krona One';
+    color:white;
 }
 
 /* -----  animate easing  ----- */
